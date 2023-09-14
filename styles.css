@@ -143,7 +143,9 @@ a {
     
 }
 
-.contact-details:hover { -webkit-transform: scale(1.2); }
+.contact-details:hover {
+     -webkit-transform: scale(1.2); 
+}
 
 .contact-details {
   font-size: 2.2rem;
@@ -160,5 +162,13 @@ i {
 
 footer {
     height: 20vh;
-    border-top: 5px solid black;
+    border-top: 5px solid red;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    background-color: rgb(51, 51, 51);
 }
