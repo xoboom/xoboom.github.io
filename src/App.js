@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Portfolio from './components/Portfolio';
+import WelcomeMain from './components/WelcomeMain';
+import background from "./WebpageBG.png"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          What is good?
-        </a>
-      </header>
+    <div className="App" style={{ backgroundImage: `url(${background})` }}>
+      <Navbar />
+      <WelcomeMain />
+      <Portfolio />
     </div>
   );
 }
