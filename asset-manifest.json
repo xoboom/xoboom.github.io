@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.275959c5.css",
+    "main.css": "/static/css/main.6a97f4e4.css",
     "main.js": "/static/js/main.786581c7.js",
     "static/js/787.ab9b1272.chunk.js": "/static/js/787.ab9b1272.chunk.js",
     "static/media/TAWicon.png": "/static/media/TAWicon.18ac065a43cb0ff2d904.png",
     "index.html": "/index.html",
-    "main.275959c5.css.map": "/static/css/main.275959c5.css.map",
+    "main.6a97f4e4.css.map": "/static/css/main.6a97f4e4.css.map",
     "main.786581c7.js.map": "/static/js/main.786581c7.js.map",
     "787.ab9b1272.chunk.js.map": "/static/js/787.ab9b1272.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.275959c5.css",
+    "static/css/main.6a97f4e4.css",
     "static/js/main.786581c7.js"
   ]
 }
