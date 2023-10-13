@@ -1,4 +1,24 @@
+:root {
+    --off-black: #333333;
+}
+
 .Projects {
-    height: 100vh;
-    background: linear-gradient(#b7b6b6, #eaeaec);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+    font-size: calc(10px + 2vmin);
+    color: black;
+    width: auto;
+    background: rgba(255, 255, 255, 0.315);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    margin: 1% 5%;
+    padding: 20px;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+h1 {
+    color: var(--off-black);
 }

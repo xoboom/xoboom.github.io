@@ -6,4 +6,5 @@
   text-align: center;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-size: cover;
 }

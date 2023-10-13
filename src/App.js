@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import WelcomeMain from './components/WelcomeMain';
 import background from "./WebpageBG.png"
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <WelcomeMain />
       <Portfolio />
+      <Contact />
     </div>
   );
 }
